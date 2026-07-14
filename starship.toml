@@ -1,0 +1,16 @@
+add_newline = false
+
+[directory]
+style = "bold cyan"
+truncation_length = 3
+
+[character]
+success_symbol = "[>](bold green)"
+error_symbol = "[>](bold red)"
+vicmd_symbol = "[<](bold yellow)"
+
+[git_branch]
+symbol = " "
+
+[git_status]
+disabled = false

@@ -1,0 +1,8 @@
+[user]
+  name = David Mason
+
+[includeIf "gitdir:~/Code/personal/"]
+  path = ~/.gitconfig-personal
+
+[includeIf "gitdir:~/Code/ibm/"]
+  path = ~/.gitconfig-ibm
